@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>python脚本打包成exe文件</title>
-    <url>/2020/01/20/python%E8%84%9A%E6%9C%AC%E6%89%93%E5%8C%85%E6%88%90exe%E6%96%87%E4%BB%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><audio src="https://link.hhtjim.com/163/386538.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta" autoplay='autoplay'>你的浏览器不支持audio标签</audio></p>
-<p>使用工具：pyinstaller<br>方式一：在要打包的python文件路径下，按住shift，右键单击，打开powershell窗口。输入以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pyinstaller -F alien_invasion.py -i FM-LW.ico </span><br></pre></td></tr></table></figure>
-<p>其中 -F 为生成单个文件exe文件 -i 为exe文件图标<br><img src="http://lc-fRvwEE14.cn-e1.lcfile.com/553768dcb9dc2056d7f3/pyinstaller.png" alt=""><br>方式二：win+r,输入cmd,打开命令行窗口，输入python脚本和ico图标文件的绝对路径</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pyinstaller -F C:\Users\13527\Desktop\FM❤LW\shooting_game.py -i C:\Users\13527\Desktop\FM❤LW\FM-LW.ico</span><br></pre></td></tr></table></figure>
-<p><img src="%22http://lc-fRvwEE14.cn-e1.lcfile.com/6f570eb8bd50ff7f0548/pyinstaller%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84.png" alt=""><br>cmd窗口出现下述字样，则表明打包成功。<br>！<a href="http://lc-fRvwEE14.cn-e1.lcfile.com/a65665f96563accd3d1d/%E6%89%93%E5%8C%85%E6%88%90%E5%8A%9F.png" target="_blank" rel="noopener"></a><br>可在python脚本所在文件夹中看到生成的dist文件夹，里面包含可执行exe文件<br>！<a href="http://lc-fRvwEE14.cn-e1.lcfile.com/b6f73cba351e3f16bcfb/%E6%95%88%E6%9E%9C%E5%9B%BE.png" target="_blank" rel="noopener"></a></p>
-]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo Blog文章创作</title>
     <url>/2020/01/20/Hexo%20Blog%E6%96%87%E7%AB%A0%E5%88%9B%E4%BD%9C/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h3><p>(1)在hexo博客目录下，进入Git Bash命令行窗口，输入以下命令：</p>
@@ -38,16 +24,12 @@
 <center>五月天/温柔</center>
 
 <h3 id="插入超链接"><a href="#插入超链接" class="headerlink" title="插入超链接"></a>插入超链接</h3><p>在文章需要插入超链接的位置，添加以下代码：</p>
-<blockquote>
-<p><a href="url">url text</a><br><url>会被直接解析成超链接</p>
-</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[url text](url)</span><br></pre></td></tr></table></figure>
+<p>此外，url若在&lt;&gt;内会被直接解析成超链接</p>
 <h3 id="插入视频"><a href="#插入视频" class="headerlink" title="插入视频"></a>插入视频</h3><p>首先将视频存储在CDN中，得到外链地址，并在文章插入视频位置添加以下代码：</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"400"</span> <span class="attr">src</span>=<span class="string">"http://lc-fRvwEE14.cn-e1.lcfile.com/64c64299779186d951ac/army.mp4"</span> <span class="attr">controls</span>=<span class="string">"controls"</span>&gt;</span></span><br><span class="line">The `<span class="tag">&lt;<span class="name">video</span>&gt;</span>` tag is not supported by your browser.<span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="指定位置分隔符"><a href="#指定位置分隔符" class="headerlink" title="指定位置分隔符"></a>指定位置分隔符</h3><p>在文章指定位置处，添加如下代码：</p>
-<blockquote>
-<!--more-->
-</blockquote>
 ]]></content>
       <categories>
         <category>Blog</category>

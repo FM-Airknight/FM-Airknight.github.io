@@ -218,103 +218,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://fm-cslab.com/2020/01/20/python%E8%84%9A%E6%9C%AC%E6%89%93%E5%8C%85%E6%88%90exe%E6%96%87%E4%BB%B6/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="FM Airknight">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="FM's Blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/01/20/python%E8%84%9A%E6%9C%AC%E6%89%93%E5%8C%85%E6%88%90exe%E6%96%87%E4%BB%B6/" class="post-title-link" itemprop="url">python脚本打包成exe文件</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-01-20 17:40:05 / 修改时间：21:48:39" itemprop="dateCreated datePublished" datetime="2020-01-20T17:40:05+08:00">2020-01-20</time>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2020/01/20/python%E8%84%9A%E6%9C%AC%E6%89%93%E5%8C%85%E6%88%90exe%E6%96%87%E4%BB%B6/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/01/20/python%E8%84%9A%E6%9C%AC%E6%89%93%E5%8C%85%E6%88%90exe%E6%96%87%E4%BB%B6/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>364</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><audio src="https://link.hhtjim.com/163/386538.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta" autoplay='autoplay'>你的浏览器不支持audio标签</audio></p>
-<p>使用工具：pyinstaller<br>方式一：在要打包的python文件路径下，按住shift，右键单击，打开powershell窗口。输入以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyinstaller -F alien_invasion.py -i FM-LW.ico </span><br></pre></td></tr></table></figure>
-<p>其中 -F 为生成单个文件exe文件 -i 为exe文件图标<br><img src="http://lc-fRvwEE14.cn-e1.lcfile.com/553768dcb9dc2056d7f3/pyinstaller.png" alt=""><br>方式二：win+r,输入cmd,打开命令行窗口，输入python脚本和ico图标文件的绝对路径</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyinstaller -F C:\Users\13527\Desktop\FM❤LW\shooting_game.py -i C:\Users\13527\Desktop\FM❤LW\FM-LW.ico</span><br></pre></td></tr></table></figure>
-<p><img src="%22http://lc-fRvwEE14.cn-e1.lcfile.com/6f570eb8bd50ff7f0548/pyinstaller%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84.png" alt=""><br>cmd窗口出现下述字样，则表明打包成功。<br>！<a href="http://lc-fRvwEE14.cn-e1.lcfile.com/a65665f96563accd3d1d/%E6%89%93%E5%8C%85%E6%88%90%E5%8A%9F.png" target="_blank" rel="noopener"></a><br>可在python脚本所在文件夹中看到生成的dist文件夹，里面包含可执行exe文件<br>！<a href="http://lc-fRvwEE14.cn-e1.lcfile.com/b6f73cba351e3f16bcfb/%E6%95%88%E6%9E%9C%E5%9B%BE.png" target="_blank" rel="noopener"></a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <!--添加本文结束标志--!>
-    <div>
-    
-    </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://fm-cslab.com/2020/01/20/Hexo%20Blog%E6%96%87%E7%AB%A0%E5%88%9B%E4%BD%9C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -340,7 +243,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-01-20 13:30:02 / 修改时间：21:08:23" itemprop="dateCreated datePublished" datetime="2020-01-20T13:30:02+08:00">2020-01-20</time>
+              <time title="创建时间：2020-01-20 13:30:02 / 修改时间：21:57:26" itemprop="dateCreated datePublished" datetime="2020-01-20T13:30:02+08:00">2020-01-20</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -374,7 +277,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.1k</span>
+              <span>1.2k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -613,7 +516,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -622,7 +525,7 @@
         <span class="site-state-item-name">分类</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -669,12 +572,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">13k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">13 分钟</span>
+    <span title="站点阅读时长">12 分钟</span>
 </div><div id="days"></div>
 <script>
 function show_date_time(){
