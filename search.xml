@@ -7,17 +7,13 @@
 <blockquote>
 <p>hexo new “我曾经的战场”</p>
 </blockquote>
-<p>(2)在博客目录下的/source/_post文件夹下可以看到生成的博客文件(我曾经的战场.md)，如下图：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![](http:&#x2F;&#x2F;lc-fRvwEE14.cn-e1.lcfile.com&#x2F;f33a65441104a2cd063b&#x2F;create_passage.png)</span><br></pre></td></tr></table></figure>
-<p>(3)在(我曾经的战场.md)文件中编辑博客内容即可。<br>注意：hexo博客采用markdown语法。</p>
+<p>(2)在博客目录下的/source/_post文件夹下可以看到生成的博客文件(我曾经的战场.md)，如下图：<br>(3)在(我曾经的战场.md)文件中编辑博客内容即可。<br>注意：hexo博客采用markdown语法。</p>
 <h3 id="文章中插入图片"><a href="#文章中插入图片" class="headerlink" title="文章中插入图片"></a>文章中插入图片</h3><p>在hexo博客中插入图片主要有以下两种方式：<br><strong>(1)引用本地图片</strong><br>将图片放在博客主题目录下的/source/image/文件夹中，并在文章插入图片的位置添加以下代码：</p>
-<blockquote>
-<p><img src="/images/XXX.jpg" alt="图片描述"><br>其中，XXX为图片名称<br><strong>(2)src链接</strong><br>可先图片将存放在CDN或图床中，生成外链src地址，插入图片时引用外链src地址即可。<br>将图片文件上传至CDN,复制生成的外链地址</p>
-</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![图片描述]&#x2F;images&#x2F;XXX.jpg))</span><br></pre></td></tr></table></figure>
+<p>其中，XXX为图片名称<br><strong>(2)src链接</strong><br>可先图片将存放在CDN或图床中，生成外链src地址，插入图片时引用外链src地址即可。<br>将图片文件上传至CDN,复制生成的外链地址</p>
 <p>在文章中插入图片，具体代码如下：</p>
-<blockquote>
-<p><img src="https://ws3.sinaimg.cn/large/005BYqpgly1g29eohl7qhj31c00u0dkz.jpg" alt="图片描述"></p>
-</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![图片描述](http:&#x2F;&#x2F;lc-fRvwEE14.cn-e1.lcfile.com&#x2F;f33a65441104a2cd063b&#x2F;create_passage.png)</span><br></pre></td></tr></table></figure>
+
 <h3 id="文章中插入音频"><a href="#文章中插入音频" class="headerlink" title="文章中插入音频"></a>文章中插入音频</h3>]]></content>
       <categories>
         <category>Blog</category>
