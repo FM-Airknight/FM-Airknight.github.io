@@ -8,7 +8,7 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pyinstaller -F alien_invasion.py -i FM-LW.ico </span><br></pre></td></tr></table></figure>
 <p>其中 -F 为生成单个文件exe文件 -i 为exe文件图标<br><img src="http://lc-fRvwEE14.cn-e1.lcfile.com/553768dcb9dc2056d7f3/pyinstaller.png" alt=""><br>方式二：win+r,输入cmd,打开命令行窗口，输入python脚本和ico图标文件的绝对路径</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pyinstaller -F C:\Users\13527\Desktop\FM❤LW\shooting_game.py -i C:\Users\13527\Desktop\FM❤LW\FM-LW.ico</span><br></pre></td></tr></table></figure>
-<p><img src="%22http://lc-fRvwEE14.cn-e1.lcfile.com/6f570eb8bd50ff7f0548/pyinstaller%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84.png" alt=""><br>cmd窗口出现下述字样，则表明打包成功。<br>！<a href="http://lc-fRvwEE14.cn-e1.lcfile.com/a65665f96563accd3d1d/%E6%89%93%E5%8C%85%E6%88%90%E5%8A%9F.png" target="_blank" rel="noopener"></a><br>可在python脚本所在文件夹中看到生成的dist文件夹，里面包含可执行exe文件<br>！<a href="http://lc-fRvwEE14.cn-e1.lcfile.com/b6f73cba351e3f16bcfb/%E6%95%88%E6%9E%9C%E5%9B%BE.png" target="_blank" rel="noopener"></a></p>
+<p><img src="%22http://lc-fRvwEE14.cn-e1.lcfile.com/6f570eb8bd50ff7f0548/pyinstaller%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84.png" alt=""><br>cmd窗口出现下述字样，则表明打包成功。<br><img src="http://lc-fRvwEE14.cn-e1.lcfile.com/a65665f96563accd3d1d/%E6%89%93%E5%8C%85%E6%88%90%E5%8A%9F.png" alt=""><br>可在python脚本所在文件夹中看到生成的dist文件夹，里面包含可执行exe文件<br><img src="http://lc-fRvwEE14.cn-e1.lcfile.com/b6f73cba351e3f16bcfb/%E6%95%88%E6%9E%9C%E5%9B%BE.png" alt=""></p>
 ]]></content>
       <tags>
         <tag>python</tag>
