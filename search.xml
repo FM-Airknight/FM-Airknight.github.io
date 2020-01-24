@@ -9,12 +9,9 @@
     <label for="hbePass">您好, 这里需要密码.</label>
     <div class="bottom-line"></div>
   </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="659e62f5479a6ede4b1cf3a4b46b1cf2200d6deaa46740dc2111d7f00573daa4">2d169067507e2313c81fd71ff0929be94d5798efa32c0ac9146f7bb22c6889ae</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="5aaf2706f573abb83f72aa4ac4be89e2cec2b321a7d98d7cf201b30819915bbd">ce6c3f3e07d0c9d8821b42b7295b324f</script>
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>作为日记加密</tag>
-      </tags>
   </entry>
   <entry>
     <title>python脚本打包成exe文件</title>
