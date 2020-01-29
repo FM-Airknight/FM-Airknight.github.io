@@ -46,6 +46,30 @@
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"400"</span> <span class="attr">src</span>=<span class="string">"http://lc-fRvwEE14.cn-e1.lcfile.com/64c64299779186d951ac/army.mp4"</span> <span class="attr">controls</span>=<span class="string">"controls"</span>&gt;</span></span><br><span class="line">The `<span class="tag">&lt;<span class="name">video</span>&gt;</span>` tag is not supported by your browser.<span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="指定位置分隔符"><a href="#指定位置分隔符" class="headerlink" title="指定位置分隔符"></a>指定位置分隔符</h3><p>在文章指定位置处，添加如下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt; </span><br></pre></td></tr></table></figure>
+
+<h3 id="插入分隔线"><a href="#插入分隔线" class="headerlink" title="插入分隔线"></a>插入分隔线</h3><p>连续使用三个—或者***插入文章内部分割线</p>
+<h3 id="插入表格"><a href="#插入表格" class="headerlink" title="插入表格"></a>插入表格</h3><p>使用|来分隔不同的单元格，使用-来分隔表头与其他行</p>
+<table>
+<thead>
+<tr>
+<th>名字</th>
+<th>性别</th>
+<th>年龄</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>张三</td>
+<td>男</td>
+<td>18</td>
+</tr>
+<tr>
+<td>赵淑芬</td>
+<td>女</td>
+<td>20</td>
+</tr>
+</tbody></table>
+<p> 改变对齐格式：<br> :—   左对齐<br> :—:  居中对齐<br> —:   右对齐</p>
 ]]></content>
       <categories>
         <category>Blog</category>
